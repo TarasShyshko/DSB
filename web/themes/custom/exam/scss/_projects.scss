@@ -1,0 +1,201 @@
+@import "variables";
+.page-view-projects {
+  .dialog-off-canvas-main-canvas {
+    #page-wrapper {
+      #page {
+        header {
+          #navbar-main {
+            max-width: 1250px;
+            margin-top: 0;
+          }
+        }
+
+        .highlighted {
+          margin: 50px 0 0 0;
+        }
+      }
+    }
+  }
+
+  .content {
+    max-width: 1250px;
+    margin: 0 auto;
+  }
+}
+
+.view-projects {
+  background-image: none;
+  text-align: center;
+
+  .row-1 {
+    margin: 20px 0 0 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    @media (max-width: 1174px) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-content: center;
+    }
+    @media (max-width: 620px) {
+      display: grid;
+      grid-template-columns: 1fr;
+      justify-content: center;
+    }
+  }
+
+  .row-2 {
+    margin: 20px 0 0 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    @media (max-width: 1174px) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-content: center;
+    }
+    @media (max-width: 620px) {
+      display: grid;
+      grid-template-columns: 1fr;
+      justify-content: center;
+    }
+  }
+
+  .row-3 {
+    margin: 20px 0 20px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    @media (max-width: 1174px) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-content: center;
+    }
+    @media (max-width: 620px) {
+      display: grid;
+      grid-template-columns: 1fr;
+      justify-content: center;
+    }
+  }
+
+  .views-field-title {
+    padding: 40px 0 20px 0;
+
+    a {
+      color: $black;
+      font-size: 20px;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+  }
+
+  .col-1 {
+    background: $white;
+    padding: 0 10px 25px 10px;
+    width: 95% !important;
+    @media (max-width: 1174px) {
+      max-width: 100%;
+      margin: 0 10px 25px 10px;
+    }
+
+    .views-field-field-image {
+      img {
+        width: 280px;
+      }
+    }
+  }
+
+  .col-2 {
+    background: $white;
+    padding: 0 10px 25px 10px;
+    width: 95% !important;
+    @media (max-width: 1174px) {
+      max-width: 100%;
+      margin: 0 10px 25px 10px;
+    }
+
+    .views-field-field-image {
+      img {
+        width: 280px;
+      }
+    }
+  }
+
+  .col-3 {
+    background: $white;
+    margin: 0 10px 0 10px;
+    width: 95% !important;
+    @media (max-width: 1174px) {
+      max-width: 100%;
+    }
+
+    .views-field-field-image {
+      img {
+        width: 280px;
+      }
+    }
+  }
+
+  .col-4 {
+    background: $white;
+    margin: 0 10px 0 10px;
+    width: 95% !important;
+    @media (max-width: 1174px) {
+      max-width: 100%;
+    }
+
+    .views-field-field-image {
+      img {
+        width: 280px;
+      }
+    }
+  }
+
+  .views-field-view-node {
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 30px 0 0 0;
+    padding: 10px;
+
+    a {
+      color: $white;
+      background: #373645;
+      padding: 10px 10px 10px 10px;
+      text-decoration: none;
+    }
+
+  }
+
+  .views-field-field-node-link {
+    a[href*="/node/3"] {
+      text-transform: uppercase;
+      text-decoration: none;
+      color: $green;
+    }
+
+    a[href*="/node/5"] {
+      text-transform: uppercase;
+      text-decoration: none;
+      color: $pink;
+    }
+
+    a[href*="/node/4"] {
+      text-transform: uppercase;
+      text-decoration: none;
+      color: $light-red;
+    }
+
+    a[href*="/node/6"] {
+      text-transform: uppercase;
+      text-decoration: none;
+      color: $light-blue;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+@import "footer";

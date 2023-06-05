@@ -1,0 +1,43 @@
+.highlighted {
+  margin: 560px 0 0 0;
+  @media (max-width: 426px) {
+    margin-top: 0;
+  }
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#main-wrapper {
+  min-height: 45vw !important;
+}
+
+footer {
+  flex-shrink: 0;
+  position: relative;
+}
+@import "variables";
+@import "header";
+@import "main";
+@import "header";
+@import "homepage";
+@import "projects";
+@import "services";
+@import "contact";
+@import "news";
+@import "node-clients";
+@import "node-news";
+@import "node-projects";
+@import "node-services";
+@import "node-team";
+@import "page-user-login";
+@import "search";
+@import "team";
+@import "toolbar-tray-open";
+@import "about";
+@import "clients";

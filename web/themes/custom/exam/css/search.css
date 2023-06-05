@@ -1,0 +1,67 @@
+.path-search .dialog-off-canvas-main-canvas #page-wrapper #page header #navbar-main {
+  max-width: 1250px;
+  margin-top: 30px;
+}
+.path-search .dialog-off-canvas-main-canvas #page-wrapper #page header .navbar {
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1) !important;
+}
+.path-search .dialog-off-canvas-main-canvas #page-wrapper #page .highlighted {
+  margin: 50px 0 0 0;
+}
+.path-search .content {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.block-system-main-block form a[href*="/search/node/help"] {
+  color: white;
+}
+.block-system-main-block form label {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.block-system-main-block form input {
+  border-radius: 0;
+}
+.block-system-main-block form .btn-primary {
+  background-color: #373645;
+}
+.block-system-main-block form button {
+  margin: -1px 0 0 0;
+  border-color: #373645;
+  border-radius: 0;
+}
+.block-system-main-block form a {
+  color: #373645;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.block-system-main-block h2 {
+  font-size: 28px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.block-system-main-block ol li {
+  background-color: #373645;
+  border-color: white;
+}
+.block-system-main-block ol li h3 {
+  font-size: 28px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.block-system-main-block ol li h3 a {
+  text-decoration: none;
+  color: white;
+}
+.block-system-main-block ol li p {
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
+/*# sourceMappingURL=search.css.map */

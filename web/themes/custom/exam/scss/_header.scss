@@ -1,0 +1,217 @@
+@import "variables";
+header {
+  #navbar-main {
+    max-width: 1250px;
+    margin-top: -410px;
+    @media (max-width: 426px) {
+      max-width: 1250px;
+      margin-top: 0;
+    }
+  }
+
+  .navbar-expand-lg {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .8);
+  }
+
+  .navbar {
+
+    margin: -10px auto;
+    padding: 0 0 0 0;
+    background: $white !important;
+    ul{
+      @media (max-width: 769px) {
+        text-align: center;
+        margin: 0 0 0 0!important;
+      }
+    }
+
+    .navbar-collapse {
+
+      .block-social-media-links-block{
+        ul{
+          @media (max-width: 769px) {
+            align-items: center;
+            justify-content: center;
+          }
+        }
+      }
+      .block-search{
+        form{
+          @media (max-width: 769px) {
+            align-items: center;
+            justify-content: center;
+          }
+        }
+      }
+      .navbar-nav {
+        margin: 0 35px 0 0;
+        @media (max-width: 1026px) {
+          text-align: center;
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+          display: grid;
+        }
+        @media (max-width: 768px) {
+          display: flex;
+          margin: 0 0 0 0;
+        }
+
+        .nav-item {
+          display: block;
+          padding: 39px 5px 23px 0;
+          border-bottom: 10px solid transparent;
+          transition: border-color 0.3s ease;
+          @media (max-width: 1025px) {
+            padding: 0 0 0 0;
+          }
+
+          .nav-link-- {
+            user-select: none;
+            color: transparent;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-image: url("../images/Homepage-menu.png");
+          }
+        }
+
+        .nav-item:hover {
+          border-bottom: 10px solid $azure;
+        }
+      }
+
+      .block-menu {
+        a {
+          color: $black;
+          font-size: 17px;
+          font-weight: 200;
+        }
+      }
+    }
+
+    .block-social-media-links-block {
+      margin: 8px 0 0 0;
+    }
+
+    .site-name-slogan {
+      margin: 45px 0 0 -215px;
+      font-size: 16px;
+      color: white;
+      @media(max-width: 768px) {
+        margin: 0;
+      }
+      @media(max-width: 426px) {
+        margin: 45px 0 0 -375px;
+      }
+      @media(max-width: 326px) {
+        margin: 45px 0 0 -265px;
+      }
+    }
+
+    .navbar-brand {
+      width: 240px;
+      background-color: #373645;
+      height: 115px;
+      color: $blue;
+      font-size: 36px;
+      padding: 20px 0 0px 40px;
+    }
+
+    .row {
+      --bs-gutter-x: 0 !important;
+    }
+
+    .row > * {
+      padding-right: calc(var(--bs-gutter-x) * .0) !important;
+    }
+
+    .content {
+      font-size: 12px;
+      margin: 10px 0 0 0;
+    }
+
+    .search-block-form {
+      margin: 10px 0 0 0;
+
+      input {
+        border-radius: 0;
+        margin: -5px 0 0 0;
+      }
+
+      .btn-primary {
+        background-color: transparent;
+      }
+
+      button {
+        width: 40px;
+        user-select: none;
+        color: transparent;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url("../images/search.svg");
+        padding: 7px 5px 5px 5px;
+        border-radius: 0;
+        margin: -5px 0 0 0;
+        border-color: $gray;
+      }
+    }
+
+    .views-row {
+      @media (max-width: 426px) {
+        display: none;
+      }
+
+      .views-field-field-banner {
+        .field-content {
+          img {
+            max-width: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+          }
+        }
+      }
+
+      .views-field-field-banner1 {
+        margin: -430px 0 0 350px;
+        font-size: 60px;
+        color: $white;
+        font-weight: 300;
+        @media (max-width: 720px) {
+          margin: -430px 0 0 0;
+          text-align: left;
+        }
+      }
+
+      .views-field-field-banner2 {
+        white-space: nowrap;
+        margin: 0 0 0 350px;
+
+        h5 {
+          font-weight: 500;
+          font-size: 37px !important;
+        }
+
+        @media (max-width: 720px) {
+          margin: 0 0 0 0;
+          text-align: left;
+        }
+      }
+
+      .views-field-field-banner3 {
+        width: 360px;
+        margin: 0 0 0 350px;
+
+        h4 {
+          font-size: 15px;
+          color: $blue;
+          font-weight: 300;
+        }
+
+        @media (max-width: 720px) {
+          margin: 0 0 0 0;
+          text-align: left;
+        }
+      }
+
+    }
+  }
+
+}

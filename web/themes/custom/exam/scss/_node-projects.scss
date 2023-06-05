@@ -1,0 +1,83 @@
+@import "variables";
+.node--type-projects {
+  .dialog-off-canvas-main-canvas {
+    #page-wrapper {
+      #page {
+        header {
+          #navbar-main {
+            max-width: 1250px;
+            margin-top: 30px;
+          }
+
+          .navbar {
+            box-shadow: 0px 0px 2px rgb(0 0 0 / 10%) !important;
+          }
+        }
+
+        .highlighted {
+          margin: 50px 0 0 0;
+        }
+      }
+    }
+  }
+
+  .content {
+    max-width: 1250px;
+    margin: 0 auto;
+  }
+}
+
+.col {
+  margin: 0 auto;
+  max-width: 1250px;
+
+  .block-field-blocknodeprojectstitle {
+    font-size: 20px;
+    margin: 0 0 30px 0;
+  }
+
+  .block-extra-field-blocknodeprojectslinks {
+
+  }
+
+  .block-field-blocknodeprojectsfield-image {
+
+  }
+
+  .block-field-blocknodeprojectsbody {
+    p {
+      font-size: 16px !important;
+    }
+  }
+
+  .block-field-blocknodeprojectsfield-node-link {
+    a[href*="/node/3"] {
+      text-transform: uppercase;
+      text-decoration: none;
+      color: $green;
+    }
+
+    a[href*="/node/5"] {
+      text-transform: uppercase;
+      text-decoration: none;
+      color: $pink;
+    }
+
+    a[href*="/node/4"] {
+      text-transform: uppercase;
+      text-decoration: none;
+      color: $light-red;
+    }
+
+    a[href*="/node/6"] {
+      text-transform: uppercase;
+      text-decoration: none;
+      color: $light-blue;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+}
+@import "footer";

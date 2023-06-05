@@ -1,0 +1,321 @@
+@import "variables";
+.page-view-news {
+  .dialog-off-canvas-main-canvas {
+    #page-wrapper {
+      #page {
+        header {
+          #navbar-main {
+            max-width: 1250px;
+            margin-top: 0;
+          }
+        }
+
+        .highlighted {
+          margin: 50px 0 0 0;
+        }
+      }
+    }
+  }
+}
+
+.view-filters {
+  max-width: 1296px;
+  margin: 0 auto;
+  padding: 40px 0 0 0;
+
+  input {
+    width: 260px;
+    border-radius: 0;
+  }
+
+  .btn-primary {
+    background-color: $button-blue;
+    color: $white;
+  }
+
+  button {
+    border-color: $button-blue;
+    margin: -99px 0 0 -700px !important;
+    @media(max-width: 1025px) {
+      margin: -98px 0 0 -395px !important;
+    }
+    @media(max-width: 769px) {
+      margin: -98px 0 0 -145px !important;
+    }
+    @media(max-width: 429px) {
+      margin: -98px 0 0 200px !important;
+    }
+  }
+}
+
+.view-news {
+  margin: 100px 0 0 0;
+  text-align: center;
+  text-transform: uppercase;
+
+  h2 {
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  h2::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-image: linear-gradient(to right, $border-color 42%, transparent 40%, transparent 58%, $border-color 42%);
+  }
+
+  .news {
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+    background-image: repeating-linear-gradient(135deg, transparent, $border-color 3px, transparent 3px, transparent 13px);
+    height: 100%;
+  }
+
+  .view-filters {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 0 0 0;
+
+    input {
+      border-radius: 0;
+    }
+
+    .btn-primary {
+      background-color: $button-blue;
+      color: white;
+    }
+
+    button {
+      border-color: $button-blue;
+      margin: 0 0 0 5px;
+    }
+  }
+
+  .row {
+    max-width: 1295px;
+    margin: 0 auto;
+    padding: 10px 0 70px 0;
+
+    .row-1 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-items: center;
+      @media (max-width: 1270px) {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+      }
+    }
+
+    .row-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-items: center;
+      @media (max-width: 1270px) {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+      }
+    }
+
+    .row-3 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-items: center;
+      @media (max-width: 1270px) {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+      }
+    }
+
+    .row-4 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-items: center;
+      @media (max-width: 1270px) {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+      }
+    }
+
+    .col-1 {
+      margin: 0 15px 0 -15px;
+      background-color: $white;
+      padding: 20px 0 20px 10px;
+      width: 100% !important;
+      @media (max-width: 1270px) {
+        margin: 0 20px 20px 20px;
+      }
+    }
+
+    .col-2 {
+      background-color: $white;
+      padding: 20px 0 20px 10px;
+      width: 100% !important;
+    }
+  }
+
+  .views-field-field-date {
+    color: $whitesmoke;
+    font-size: 14px;
+    text-align: left;
+    margin: 0 0 0 6px;
+    @media (max-width: 767px) {
+      display: none;
+    }
+  }
+
+  .views-field-field-date-1 {
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    border-right: 0px solid $border-color;
+    margin: 0px 580px 0 0px;
+    padding: 0 10px 43px 0;
+    @media (max-width: 767px) {
+      display: none;
+    }
+  }
+
+  .views-field-field-date-2 {
+    color: $light-blue;
+    font-size: 45px;
+    font-weight: 600;
+    text-align: left;
+    margin: -60px 0 -11px -6px;
+    @media (max-width: 767px) {
+      display: none;
+    }
+  }
+
+  .views-field-field-image {
+    text-align: left;
+    margin: -85px 0 0 50px;
+    border-left: 1px solid $border-color;
+    @media (max-width: 767px) {
+      border-left: none;
+      margin: 0 0 0 0;
+      padding: 0 0 0 0;
+      text-align: center;
+    }
+
+    img {
+      margin: 0 0 0 10px;
+    }
+  }
+
+  .views-field-field-position {
+    margin: -73px 0 0 -310px;
+    color: $whitesmoke;
+    font-size: 14px;
+    @media (max-width: 767px) {
+      border-left: none;
+      margin: 0 0 0 0;
+      padding: 0 0 0 0;
+      text-align: center;
+    }
+    @media (max-width: 320px) {
+      display: none;
+    }
+  }
+
+  .col-1 {
+    .views-field-field-name {
+      margin: -21px 0 0 -165px;
+      font-size: 14px;
+      @media (max-width: 320px) {
+        margin: 10px 0 0 -80px;
+      }
+    }
+
+
+    .views-field-field-commerce {
+      font-size: 14px;
+      margin: -21px 0 0 -10px;
+      color: $blue;
+      @media (max-width: 320px) {
+        margin: -21px 0 0 87px;
+      }
+    }
+  }
+
+  .col-2 {
+    .views-field-field-name {
+      margin: -21px 0 0 -140px;
+      font-size: 14px;
+      @media (max-width: 320px) {
+        margin: 10px 0 0 -80px;
+      }
+    }
+
+    .views-field-field-commerce {
+      font-size: 14px;
+      margin: -21px 0 0 130px;
+      color: $blue;
+      @media (max-width: 320px) {
+        margin: -21px 0 0 87px;
+      }
+    }
+  }
+
+  .views-field-created {
+    font-size: 13px;
+    text-align: end;
+    margin: -21px 10px 0 0px;
+    color: $whitesmoke;
+    @media (max-width: 767px) {
+      display: none;
+    }
+  }
+
+  .views-field-title {
+    padding: 70px 0 0 60px;
+    text-align: left;
+    font-size: 30px;
+    @media (max-width: 767px) {
+      margin: 0 0 0 0;
+      padding: 0 0 0 0;
+      text-align: center;
+    }
+  }
+
+  .views-field-body {
+    text-align: left;
+    font-size: 13px;
+    margin: 0 0 0 60px;
+    @media (max-width: 767px) {
+      display: none;
+    }
+  }
+
+  .views-field-view-node {
+    text-align: end;
+    margin: -145px 10px 0 51px;
+    padding: 145px 0 0 0;
+    border-left: 1px solid $border-color;
+
+    a {
+      text-decoration: none;
+      background: #373645;
+      color: $white;
+      padding: 10px 10px 10px 10px;
+    }
+
+    @media (max-width: 767px) {
+      border-left: none;
+      margin: 0 0 0 0;
+      padding: 0 0 0 0;
+      text-align: center;
+    }
+  }
+
+}
+@import "footer";

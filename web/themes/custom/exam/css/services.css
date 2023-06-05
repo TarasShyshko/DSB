@@ -1,0 +1,181 @@
+.page-node-171 .dialog-off-canvas-main-canvas #page-wrapper #page header #navbar-main {
+  max-width: 1250px;
+  margin-top: 30px;
+}
+.page-node-171 .dialog-off-canvas-main-canvas #page-wrapper #page header .navbar {
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1) !important;
+}
+.page-node-171 .dialog-off-canvas-main-canvas #page-wrapper #page .highlighted {
+  margin: 50px 0 0 0;
+}
+.page-node-171 .content {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+.page-node-171 .row-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+}
+@media (max-width: 1174px) {
+  .page-node-171 .row-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+}
+@media (max-width: 620px) {
+  .page-node-171 .row-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}
+.page-node-171 .row-2 .views-col {
+  width: 100% !important;
+  margin: 0 0 25px 0;
+}
+.page-node-171 .row-2 .views-col .views-field-title {
+  padding: 40px 0 20px 0;
+}
+.page-node-171 .row-2 .views-col .views-field-title a {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: black;
+  text-decoration: none;
+}
+.page-node-171 .row-2 .views-col .views-field-body {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #dadada;
+  text-decoration: none;
+  padding: 0 0 30px 0;
+}
+.page-node-171 .row-2 .views-col .views-field-view-node {
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.page-node-171 .row-2 .views-col .views-field-view-node a {
+  color: white;
+  background: #4aade0;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+}
+.page-node-171 .row-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+}
+@media (max-width: 1174px) {
+  .page-node-171 .row-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+}
+@media (max-width: 620px) {
+  .page-node-171 .row-3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}
+.page-node-171 .row-3 .views-col {
+  width: 100% !important;
+  margin: 0 0 25px 0;
+}
+.page-node-171 .row-3 .views-col .views-field-title {
+  padding: 40px 0 20px 0;
+}
+.page-node-171 .row-3 .views-col .views-field-title a {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: black;
+  text-decoration: none;
+}
+.page-node-171 .row-3 .views-col .views-field-body {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #dadada;
+  text-decoration: none;
+  padding: 0 0 30px 0;
+}
+.page-node-171 .row-3 .views-col .views-field-view-node {
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.page-node-171 .row-3 .views-col .views-field-view-node a {
+  color: white;
+  background: #6e9bca;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+}
+.page-node-171 .row-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+}
+@media (max-width: 1174px) {
+  .page-node-171 .row-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+}
+@media (max-width: 620px) {
+  .page-node-171 .row-4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}
+.page-node-171 .row-4 .views-col {
+  width: 100% !important;
+  margin: 0 0 25px 0;
+}
+.page-node-171 .row-4 .views-col .views-field-title {
+  padding: 40px 0 20px 0;
+}
+.page-node-171 .row-4 .views-col .views-field-title a {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: black;
+  text-decoration: none;
+}
+.page-node-171 .row-4 .views-col .views-field-body {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #dadada;
+  text-decoration: none;
+  padding: 0 0 30px 0;
+}
+.page-node-171 .row-4 .views-col .views-field-view-node {
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.page-node-171 .row-4 .views-col .views-field-view-node a {
+  color: white;
+  background: #6e9bca;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+}
+.page-node-171 .pagination {
+  background-color: transparent;
+  margin: 60px auto;
+  max-width: 1250px;
+  justify-content: center;
+}
+.page-node-171 .pagination .page-link {
+  padding: 6px 12px;
+  color: black;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: transparent;
+}
+.page-node-171 .pagination .page-item:hover a {
+  background-color: #dadada;
+}
+/*# sourceMappingURL=services.css.map */

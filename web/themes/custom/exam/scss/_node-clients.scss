@@ -1,0 +1,28 @@
+.node--type-clients {
+  .dialog-off-canvas-main-canvas {
+    #page-wrapper {
+      #page {
+        header {
+          #navbar-main {
+            max-width: 1250px;
+            margin-top: 30px;
+          }
+
+          .navbar {
+            box-shadow: 0px 0px 2px rgb(0 0 0 / 10%) !important;
+          }
+        }
+
+        .highlighted {
+          margin: 50px 0 0 0;
+        }
+      }
+    }
+  }
+
+  .content {
+    max-width: 1250px;
+    margin: 0 auto;
+  }
+}
+@import "footer";
