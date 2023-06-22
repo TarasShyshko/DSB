@@ -18,35 +18,7 @@
   }
 }
 
-.view-filters {
-  max-width: 1296px;
-  margin: 0 auto;
-  padding: 40px 0 0 0;
 
-  input {
-    width: 260px;
-    border-radius: 0;
-  }
-
-  .btn-primary {
-    background-color: $button-blue;
-    color: $white;
-  }
-
-  button {
-    border-color: $button-blue;
-    margin: -99px 0 0 -700px !important;
-    @media(max-width: 1025px) {
-      margin: -98px 0 0 -395px !important;
-    }
-    @media(max-width: 769px) {
-      margin: -98px 0 0 -145px !important;
-    }
-    @media(max-width: 429px) {
-      margin: -98px 0 0 200px !important;
-    }
-  }
-}
 
 .view-news {
   margin: 100px 0 0 0;
@@ -77,65 +49,42 @@
     height: 100%;
   }
 
-  .view-filters {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 0 0 0 0;
-
-    input {
-      border-radius: 0;
+  .view-filters{
+    .views-exposed-form{
+      padding: 5px 5px 5px 5px;
+      width: 485px;
+      background: #f5f5f5;
+      height: 49px;
+      @media (max-width: 510px) {
+        width: 385px
+      }
+      @media (max-width: 390px) {
+        width: 285px;
+      }
     }
-
-    .btn-primary {
-      background-color: $button-blue;
-      color: white;
+    .form--inline{
+      display: flex;
     }
-
-    button {
-      border-color: $button-blue;
-      margin: 0 0 0 5px;
+    input{
+      width: 400px;
+      @media (max-width: 510px) {
+        width: 300px
+      }
+      @media (max-width: 390px) {
+        width: 200px;
+      }
+    }
+    input, button{
+      display: inline-block;
     }
   }
 
   .row {
-    max-width: 1295px;
-    margin: 0 auto;
+    max-width: 1250px;
+    margin: 0px auto;
     padding: 10px 0 70px 0;
 
-    .row-1 {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      justify-items: center;
-      @media (max-width: 1270px) {
-        display: grid;
-        grid-template-columns: 1fr;
-        justify-items: center;
-      }
-    }
-
-    .row-2 {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      justify-items: center;
-      @media (max-width: 1270px) {
-        display: grid;
-        grid-template-columns: 1fr;
-        justify-items: center;
-      }
-    }
-
-    .row-3 {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      justify-items: center;
-      @media (max-width: 1270px) {
-        display: grid;
-        grid-template-columns: 1fr;
-        justify-items: center;
-      }
-    }
-
-    .row-4 {
+    .row-1,.row-2,.row-3,.row-4 {
       display: grid;
       grid-template-columns: 1fr 1fr;
       justify-items: center;
@@ -147,7 +96,7 @@
     }
 
     .col-1 {
-      margin: 0 15px 0 -15px;
+
       background-color: $white;
       padding: 20px 0 20px 10px;
       width: 100% !important;
@@ -156,7 +105,7 @@
       }
     }
 
-    .col-2 {
+    .col-2{
       background-color: $white;
       padding: 20px 0 20px 10px;
       width: 100% !important;
@@ -167,44 +116,40 @@
     color: $whitesmoke;
     font-size: 14px;
     text-align: left;
-    margin: 0 0 0 6px;
-    @media (max-width: 767px) {
-      display: none;
-    }
+    margin: 0 0 0 -41px;
+    vertical-align: bottom;
   }
 
   .views-field-field-date-1 {
-    color: black;
+    color: $black;
     font-size: 20px;
     text-align: left;
     border-right: 0px solid $border-color;
-    margin: 0px 580px 0 0px;
-    padding: 0 10px 43px 0;
-    @media (max-width: 767px) {
-      display: none;
-    }
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    vertical-align: top;
   }
 
   .views-field-field-date-2 {
-    color: $light-blue;
+    color: $azure;
     font-size: 45px;
     font-weight: 600;
     text-align: left;
-    margin: -60px 0 -11px -6px;
-    @media (max-width: 767px) {
-      display: none;
-    }
+    margin: 0 0 0 -47px;
+    vertical-align: -webkit-baseline-middle;
   }
 
   .views-field-field-image {
     text-align: left;
-    margin: -85px 0 0 50px;
+    margin: 0 0 0 10px;
+    padding: 23px 0 23px 0;
     border-left: 1px solid $border-color;
     @media (max-width: 767px) {
       border-left: none;
       margin: 0 0 0 0;
       padding: 0 0 0 0;
       text-align: center;
+      border-left: 0px solid $border-color;
     }
 
     img {
@@ -213,13 +158,14 @@
   }
 
   .views-field-field-position {
-    margin: -73px 0 0 -310px;
+    display: inline-block;
     color: $whitesmoke;
     font-size: 14px;
+    margin: 0;
+    vertical-align: top;
     @media (max-width: 767px) {
       border-left: none;
-      margin: 0 0 0 0;
-      padding: 0 0 0 0;
+      margin: 0;
       text-align: center;
     }
     @media (max-width: 320px) {
@@ -229,57 +175,59 @@
 
   .col-1 {
     .views-field-field-name {
-      margin: -21px 0 0 -165px;
+      display: inline-block;
       font-size: 14px;
+      margin: 0;
+      vertical-align: top;
       @media (max-width: 320px) {
-        margin: 10px 0 0 -80px;
+        margin: 0;
       }
     }
 
-
     .views-field-field-commerce {
       font-size: 14px;
-      margin: -21px 0 0 -10px;
+      display: inline-block;
       color: $blue;
+      vertical-align: top;
+      margin: 0 110px 0 0 ;
       @media (max-width: 320px) {
-        margin: -21px 0 0 87px;
+        margin: 0;
       }
     }
   }
 
   .col-2 {
     .views-field-field-name {
-      margin: -21px 0 0 -140px;
+      margin: 0;
       font-size: 14px;
+      display: inline-block;
+      vertical-align: top;
       @media (max-width: 320px) {
-        margin: 10px 0 0 -80px;
+        margin: 0;
       }
     }
 
     .views-field-field-commerce {
       font-size: 14px;
-      margin: -21px 0 0 130px;
+      margin: 0;
+      display: inline-block;
       color: $blue;
-      @media (max-width: 320px) {
-        margin: -21px 0 0 87px;
-      }
+      vertical-align: top;
     }
   }
 
   .views-field-created {
     font-size: 13px;
     text-align: end;
-    margin: -21px 10px 0 0px;
+    margin: 0 0 0 50px;
     color: $whitesmoke;
-    @media (max-width: 767px) {
-      display: none;
-    }
+    vertical-align: top;
   }
 
   .views-field-title {
     padding: 70px 0 0 60px;
     text-align: left;
-    font-size: 30px;
+    font-size: 29px;
     @media (max-width: 767px) {
       margin: 0 0 0 0;
       padding: 0 0 0 0;
@@ -292,7 +240,9 @@
     font-size: 13px;
     margin: 0 0 0 60px;
     @media (max-width: 767px) {
-      display: none;
+      display: block;
+      margin-right: 70px;
+      text-align: center;
     }
   }
 

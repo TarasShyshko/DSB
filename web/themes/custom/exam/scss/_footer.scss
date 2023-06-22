@@ -42,6 +42,10 @@ footer {
         @media (max-width: 769px) {
           margin: -70px 0 0 350px;
         }
+        @media (max-width: 679px) {
+        margin: 10px 0 0 0px;
+        }
+
         @media (max-width: 425px) {
           margin: 0px 0 0 0px;
         }
@@ -62,8 +66,10 @@ footer {
 
             li {
               a {
-                color: $blue;
                 border-bottom: none;
+                path{
+                  color: $azure;
+                }
               }
             }
           }

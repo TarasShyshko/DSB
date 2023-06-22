@@ -6,6 +6,9 @@
           #navbar-main {
             max-width: 1250px;
             margin-top: 30px;
+            @media (max-width: 991px) {
+              margin-top: 0;
+            }
           }
 
           .navbar {
@@ -35,7 +38,9 @@
     font-size: 20px;
     margin: 0 0 30px 0;
   }
-
+  .block-field-blocknodeservicesfield-image{
+    float: right;
+  }
   .block-field-blocknodeservicesbody {
     p {
       font-size: 16px !important;
